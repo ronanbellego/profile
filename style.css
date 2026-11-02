@@ -1,0 +1,95 @@
+h1  {
+  font-family: 'Coral Pixels', serif;
+  font-size: 48px;
+}
+
+h2 {
+    font-family: 'Coral Pixels', serif;
+    color: #1E0B3D;
+    font-size: 32px;
+}
+
+body {
+  background-color: #1E0B3D;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header,
+.card,
+footer {
+  background: #FBF8F2;
+  padding: 5px;
+  border: 1px solid #8F3A1E;
+  box-shadow: 5px 5px 50px #A9CCF2;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+  font-size: 32px;
+  color: #D9782E;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    background-color: #D9782E;
+    border-radius: .5rem;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+    margin: auto;
+    margin-top: 2rem;
+    transition: background-color 0.3s ease;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+    text-align: center;
+    margin: 10 auto; /* Définit automatiquement les marges à gauche/droite */
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+    text-align: center;
+    margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+  }
+}
+
+
+/* Choisis une couleur de fond (background-color), un style de police (font-family),
+ une couleur (color), une taille de police (font-size) et une hauteur de ligne
+ (line-height) pour le corps (<body>).
+
+ Si tu définis ces règles de police au niveau du corps,
+ elles s’appliqueront à toutes les balises de texte de base (<p>, <li>, etc.). */
